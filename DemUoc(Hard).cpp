@@ -3,12 +3,8 @@
 using namespace std;
 
 typedef long long ll;
-typedef unsigned long long ull;
-typedef long double ld;
-typedef pair<ll,ll>pi;
 const int MOD = 1e9 + 7;
 
-//Code by : Hoang Phuong!
 ll cnt[1000001];
 void sang()
 {
@@ -31,7 +27,6 @@ void sang()
 ll uoc[1000001] = {0};
 int main()
 {
-    ios::sync_with_stdio(0);cin.tie(NULL);cout.tie(NULL);
     ll n ; cin >> n;
     ll a[n] ; sang(); ll Max = 0;
     for(ll &x : a)
